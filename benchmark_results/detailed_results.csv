@@ -1,0 +1,241 @@
+instance_name,category,implementation,run_number,status,converged,time,objective,iterations,primal_residual,dual_residual,complementarity,error,total_elapsed,run_directory
+GridDemands/gd1,GridDemands,simplex,1,success,TRUE,0.02,829904,709,,,,,0.436558962,benchmark_results\runs\GridDemands_gd1_simplex_run1
+GridDemands/gd1,GridDemands,simplex,2,success,TRUE,0.02,829904,716,,,,,0.406342745,benchmark_results\runs\GridDemands_gd1_simplex_run2
+GridDemands/gd1,GridDemands,simplex,3,success,TRUE,0.02,829904,709,,,,,0.416409254,benchmark_results\runs\GridDemands_gd1_simplex_run3
+GridDemands/gd1,GridDemands,column_generation,1,success,TRUE,0.49,829904,57,,,,,0.574942112,benchmark_results\runs\GridDemands_gd1_column_generation_run1
+GridDemands/gd1,GridDemands,column_generation,2,success,TRUE,0.14,829904,57,,,,,0.223332644,benchmark_results\runs\GridDemands_gd1_column_generation_run2
+GridDemands/gd1,GridDemands,column_generation,3,success,TRUE,0.13,829904,57,,,,,0.213036299,benchmark_results\runs\GridDemands_gd1_column_generation_run3
+GridDemands/gd1,GridDemands,dual,1,success,FALSE,1.306104,829409.2029,1000,164.75,0,3956.026,,1.367173433,benchmark_results\runs\GridDemands_gd1_dual_run1
+GridDemands/gd1,GridDemands,dual,2,success,FALSE,1.314933,829409.2029,1000,164.75,0,3956.026,,1.380658865,benchmark_results\runs\GridDemands_gd1_dual_run2
+GridDemands/gd1,GridDemands,dual,3,success,FALSE,1.332395,829409.2029,1000,164.75,0,3956.026,,1.398315907,benchmark_results\runs\GridDemands_gd1_dual_run3
+GridDemands/gd1,GridDemands,interior_point,1,success,TRUE,6.27,827321.34,43,0.0313,1.04E-11,9.71E-11,,6.425039768,benchmark_results\runs\GridDemands_gd1_interior_point_run1
+GridDemands/gd1,GridDemands,interior_point,2,success,TRUE,6.06,827321.34,43,0.0313,1.04E-11,9.71E-11,,6.207370281,benchmark_results\runs\GridDemands_gd1_interior_point_run2
+GridDemands/gd1,GridDemands,interior_point,3,success,TRUE,5.94,827321.34,43,0.0313,1.04E-11,9.71E-11,,6.089046478,benchmark_results\runs\GridDemands_gd1_interior_point_run3
+GridDemands/gd2,GridDemands,simplex,1,success,TRUE,0.05,1713432,1575,,,,,0.44663167,benchmark_results\runs\GridDemands_gd2_simplex_run1
+GridDemands/gd2,GridDemands,simplex,2,success,TRUE,0.05,1713432,1575,,,,,0.436539412,benchmark_results\runs\GridDemands_gd2_simplex_run2
+GridDemands/gd2,GridDemands,simplex,3,success,TRUE,0.05,1713432,1575,,,,,0.442241669,benchmark_results\runs\GridDemands_gd2_simplex_run3
+GridDemands/gd2,GridDemands,column_generation,1,success,TRUE,0.49,1713432,167,,,,,0.579110146,benchmark_results\runs\GridDemands_gd2_column_generation_run1
+GridDemands/gd2,GridDemands,column_generation,2,success,TRUE,0.49,1713432,167,,,,,0.580808401,benchmark_results\runs\GridDemands_gd2_column_generation_run2
+GridDemands/gd2,GridDemands,column_generation,3,success,TRUE,0.49,1713432,167,,,,,0.58006835,benchmark_results\runs\GridDemands_gd2_column_generation_run3
+GridDemands/gd2,GridDemands,dual,1,success,FALSE,2.733361,1709147.216,1000,1703.25,0,14992.79,,2.800035,benchmark_results\runs\GridDemands_gd2_dual_run1
+GridDemands/gd2,GridDemands,dual,2,success,FALSE,2.771665,1709147.216,1000,1703.25,0,14992.79,,2.837952375,benchmark_results\runs\GridDemands_gd2_dual_run2
+GridDemands/gd2,GridDemands,dual,3,success,FALSE,2.765413,1709147.216,1000,1703.25,0,14992.79,,2.826230288,benchmark_results\runs\GridDemands_gd2_dual_run3
+GridDemands/gd2,GridDemands,interior_point,1,success,TRUE,75.46,1705380.95,44,0.0547,1.26E-11,9.71E-11,,75.705688,benchmark_results\runs\GridDemands_gd2_interior_point_run1
+GridDemands/gd2,GridDemands,interior_point,2,success,TRUE,75.31,1705380.95,44,0.0547,1.26E-11,9.71E-11,,75.56206942,benchmark_results\runs\GridDemands_gd2_interior_point_run2
+GridDemands/gd2,GridDemands,interior_point,3,success,TRUE,73.95,1705380.95,44,0.0547,1.26E-11,9.71E-11,,74.20998144,benchmark_results\runs\GridDemands_gd2_interior_point_run3
+GridDemands/gd3,GridDemands,simplex,1,success,TRUE,0.09,1514980,2441,,,,,0.683738947,benchmark_results\runs\GridDemands_gd3_simplex_run1
+GridDemands/gd3,GridDemands,simplex,2,success,TRUE,0.09,1514980,2441,,,,,0.633462429,benchmark_results\runs\GridDemands_gd3_simplex_run2
+GridDemands/gd3,GridDemands,simplex,3,success,TRUE,0.09,1514980,2441,,,,,0.637531757,benchmark_results\runs\GridDemands_gd3_simplex_run3
+GridDemands/gd3,GridDemands,column_generation,1,success,TRUE,0.16,1514980,27,,,,,0.279988766,benchmark_results\runs\GridDemands_gd3_column_generation_run1
+GridDemands/gd3,GridDemands,column_generation,2,success,TRUE,0.16,1514980,27,,,,,0.272050381,benchmark_results\runs\GridDemands_gd3_column_generation_run2
+GridDemands/gd3,GridDemands,column_generation,3,success,TRUE,0.16,1514980,27,,,,,0.247766256,benchmark_results\runs\GridDemands_gd3_column_generation_run3
+GridDemands/gd3,GridDemands,dual,1,success,TRUE,3.877298,1529726.5,1000,0,0,0,,3.963712931,benchmark_results\runs\GridDemands_gd3_dual_run1
+GridDemands/gd3,GridDemands,dual,2,success,TRUE,3.204324,1529726.5,1000,0,0,0,,3.286092997,benchmark_results\runs\GridDemands_gd3_dual_run2
+GridDemands/gd3,GridDemands,dual,3,success,TRUE,3.294598,1529726.5,1000,0,0,0,,3.381289959,benchmark_results\runs\GridDemands_gd3_dual_run3
+GridDemands/gd3,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0248256,benchmark_results\runs\GridDemands_gd3_interior_point_run1
+GridDemands/gd3,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0109999,benchmark_results\runs\GridDemands_gd3_interior_point_run2
+GridDemands/gd3,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0100451,benchmark_results\runs\GridDemands_gd3_interior_point_run3
+GridDemands/gd4,GridDemands,simplex,1,success,TRUE,0.29,3013882,5168,,,,,0.917696953,benchmark_results\runs\GridDemands_gd4_simplex_run1
+GridDemands/gd4,GridDemands,simplex,2,success,TRUE,0.34,3013882,5168,,,,,0.890964031,benchmark_results\runs\GridDemands_gd4_simplex_run2
+GridDemands/gd4,GridDemands,simplex,3,success,TRUE,0.32,3013882,5171,,,,,0.88628602,benchmark_results\runs\GridDemands_gd4_simplex_run3
+GridDemands/gd4,GridDemands,column_generation,1,success,TRUE,1.64,3013882,123,,,,,1.759540319,benchmark_results\runs\GridDemands_gd4_column_generation_run1
+GridDemands/gd4,GridDemands,column_generation,2,success,TRUE,1.07,3013882,123,,,,,1.179644585,benchmark_results\runs\GridDemands_gd4_column_generation_run2
+GridDemands/gd4,GridDemands,column_generation,3,success,TRUE,1.04,3013882,123,,,,,1.15122056,benchmark_results\runs\GridDemands_gd4_column_generation_run3
+GridDemands/gd4,GridDemands,dual,1,success,TRUE,6.22769,3049976,1000,0,0,0,,6.31840086,benchmark_results\runs\GridDemands_gd4_dual_run1
+GridDemands/gd4,GridDemands,dual,2,success,TRUE,6.053197,3049976,1000,0,0,0,,6.134191751,benchmark_results\runs\GridDemands_gd4_dual_run2
+GridDemands/gd4,GridDemands,dual,3,success,TRUE,6.683958,3049976,1000,0,0,0,,6.777131557,benchmark_results\runs\GridDemands_gd4_dual_run3
+GridDemands/gd4,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0019419,benchmark_results\runs\GridDemands_gd4_interior_point_run1
+GridDemands/gd4,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0042617,benchmark_results\runs\GridDemands_gd4_interior_point_run2
+GridDemands/gd4,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0110114,benchmark_results\runs\GridDemands_gd4_interior_point_run3
+GridDemands/gd5,GridDemands,simplex,1,success,TRUE,1.14,5063726,12281,,,,,1.870659113,benchmark_results\runs\GridDemands_gd5_simplex_run1
+GridDemands/gd5,GridDemands,simplex,2,success,TRUE,0.93,5063726,12281,,,,,1.517050982,benchmark_results\runs\GridDemands_gd5_simplex_run2
+GridDemands/gd5,GridDemands,simplex,3,success,TRUE,0.88,5063726,12281,,,,,1.509432554,benchmark_results\runs\GridDemands_gd5_simplex_run3
+GridDemands/gd5,GridDemands,column_generation,1,success,TRUE,7.95,5063726,354,,,,,8.098429203,benchmark_results\runs\GridDemands_gd5_column_generation_run1
+GridDemands/gd5,GridDemands,column_generation,2,success,TRUE,7.32,5063726,354,,,,,7.465418577,benchmark_results\runs\GridDemands_gd5_column_generation_run2
+GridDemands/gd5,GridDemands,column_generation,3,success,TRUE,7.74,5063726,354,,,,,7.87347436,benchmark_results\runs\GridDemands_gd5_column_generation_run3
+GridDemands/gd5,GridDemands,dual,1,success,TRUE,15.689249,5129090,1000,0,0,0,,15.78053594,benchmark_results\runs\GridDemands_gd5_dual_run1
+GridDemands/gd5,GridDemands,dual,2,success,TRUE,16.32381,5129090,1000,0,0,0,,16.41101956,benchmark_results\runs\GridDemands_gd5_dual_run2
+GridDemands/gd5,GridDemands,dual,3,success,TRUE,16.185562,5129090,1000,0,0,0,,16.28084946,benchmark_results\runs\GridDemands_gd5_dual_run3
+GridDemands/gd5,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0130501,benchmark_results\runs\GridDemands_gd5_interior_point_run1
+GridDemands/gd5,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0088315,benchmark_results\runs\GridDemands_gd5_interior_point_run2
+GridDemands/gd5,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.009232,benchmark_results\runs\GridDemands_gd5_interior_point_run3
+GridDemands/gd6,GridDemands,simplex,1,success,TRUE,3.42,10392665,21367,,,,,4.177641153,benchmark_results\runs\GridDemands_gd6_simplex_run1
+GridDemands/gd6,GridDemands,simplex,2,success,TRUE,3.04,10392665,20416,,,,,3.784497261,benchmark_results\runs\GridDemands_gd6_simplex_run2
+GridDemands/gd6,GridDemands,simplex,3,success,TRUE,3.25,10392665,20942,,,,,3.963044167,benchmark_results\runs\GridDemands_gd6_simplex_run3
+GridDemands/gd6,GridDemands,column_generation,1,error,FALSE,146.17,0,2000,,,,,146.3326447,benchmark_results\runs\GridDemands_gd6_column_generation_run1
+GridDemands/gd6,GridDemands,column_generation,2,error,FALSE,147.66,0,2000,,,,,147.851965,benchmark_results\runs\GridDemands_gd6_column_generation_run2
+GridDemands/gd6,GridDemands,column_generation,3,error,FALSE,150.92,0,2000,,,,,151.0868447,benchmark_results\runs\GridDemands_gd6_column_generation_run3
+GridDemands/gd6,GridDemands,dual,1,success,FALSE,70.800655,10384945.66,1000,6077.312,0,26189.29,,70.90909791,benchmark_results\runs\GridDemands_gd6_dual_run1
+GridDemands/gd6,GridDemands,dual,2,success,FALSE,72.121989,10384945.66,1000,6077.312,0,26189.29,,72.22070718,benchmark_results\runs\GridDemands_gd6_dual_run2
+GridDemands/gd6,GridDemands,dual,3,success,FALSE,71.167752,10384945.66,1000,6077.312,0,26189.29,,71.25448132,benchmark_results\runs\GridDemands_gd6_dual_run3
+GridDemands/gd6,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0147266,benchmark_results\runs\GridDemands_gd6_interior_point_run1
+GridDemands/gd6,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.011234,benchmark_results\runs\GridDemands_gd6_interior_point_run2
+GridDemands/gd6,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0130463,benchmark_results\runs\GridDemands_gd6_interior_point_run3
+GridDemands/gd7,GridDemands,simplex,1,success,TRUE,14.08,25773692,62043,,,,,16.35230303,benchmark_results\runs\GridDemands_gd7_simplex_run1
+GridDemands/gd7,GridDemands,simplex,2,success,TRUE,10.93,25773692,61304,,,,,12.14011383,benchmark_results\runs\GridDemands_gd7_simplex_run2
+GridDemands/gd7,GridDemands,simplex,3,success,TRUE,10.72,25773692,61033,,,,,12.00936317,benchmark_results\runs\GridDemands_gd7_simplex_run3
+GridDemands/gd7,GridDemands,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.0047791,benchmark_results\runs\GridDemands_gd7_column_generation_run1
+GridDemands/gd7,GridDemands,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,181.998286,benchmark_results\runs\GridDemands_gd7_column_generation_run2
+GridDemands/gd7,GridDemands,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0065634,benchmark_results\runs\GridDemands_gd7_column_generation_run3
+GridDemands/gd7,GridDemands,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0031984,benchmark_results\runs\GridDemands_gd7_dual_run1
+GridDemands/gd7,GridDemands,dual,2,timeout,,180,,,,,,Timeout after 180.0s,182.010139,benchmark_results\runs\GridDemands_gd7_dual_run2
+GridDemands/gd7,GridDemands,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0087409,benchmark_results\runs\GridDemands_gd7_dual_run3
+GridDemands/gd7,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0044382,benchmark_results\runs\GridDemands_gd7_interior_point_run1
+GridDemands/gd7,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0001702,benchmark_results\runs\GridDemands_gd7_interior_point_run2
+GridDemands/gd7,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,181.9817629,benchmark_results\runs\GridDemands_gd7_interior_point_run3
+GridDemands/gd8,GridDemands,simplex,1,timeout,,180,,,,,,Timeout after 180.0s,182.0096722,benchmark_results\runs\GridDemands_gd8_simplex_run1
+GridDemands/gd8,GridDemands,simplex,2,timeout,,180,,,,,,Timeout after 180.0s,182.0048108,benchmark_results\runs\GridDemands_gd8_simplex_run2
+GridDemands/gd8,GridDemands,simplex,3,timeout,,180,,,,,,Timeout after 180.0s,181.997077,benchmark_results\runs\GridDemands_gd8_simplex_run3
+GridDemands/gd8,GridDemands,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.0021536,benchmark_results\runs\GridDemands_gd8_column_generation_run1
+GridDemands/gd8,GridDemands,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.0050645,benchmark_results\runs\GridDemands_gd8_column_generation_run2
+GridDemands/gd8,GridDemands,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0057788,benchmark_results\runs\GridDemands_gd8_column_generation_run3
+GridDemands/gd8,GridDemands,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0042162,benchmark_results\runs\GridDemands_gd8_dual_run1
+GridDemands/gd8,GridDemands,dual,2,timeout,,180,,,,,,Timeout after 180.0s,181.999861,benchmark_results\runs\GridDemands_gd8_dual_run2
+GridDemands/gd8,GridDemands,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0156078,benchmark_results\runs\GridDemands_gd8_dual_run3
+GridDemands/gd8,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0138049,benchmark_results\runs\GridDemands_gd8_interior_point_run1
+GridDemands/gd8,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0053451,benchmark_results\runs\GridDemands_gd8_interior_point_run2
+GridDemands/gd8,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0040684,benchmark_results\runs\GridDemands_gd8_interior_point_run3
+GridDemands/gd9,GridDemands,simplex,1,timeout,,180,,,,,,Timeout after 180.0s,182.0060949,benchmark_results\runs\GridDemands_gd9_simplex_run1
+GridDemands/gd9,GridDemands,simplex,2,timeout,,180,,,,,,Timeout after 180.0s,182.0113533,benchmark_results\runs\GridDemands_gd9_simplex_run2
+GridDemands/gd9,GridDemands,simplex,3,timeout,,180,,,,,,Timeout after 180.0s,182.0042615,benchmark_results\runs\GridDemands_gd9_simplex_run3
+GridDemands/gd9,GridDemands,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.014039,benchmark_results\runs\GridDemands_gd9_column_generation_run1
+GridDemands/gd9,GridDemands,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.0139112,benchmark_results\runs\GridDemands_gd9_column_generation_run2
+GridDemands/gd9,GridDemands,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0133152,benchmark_results\runs\GridDemands_gd9_column_generation_run3
+GridDemands/gd9,GridDemands,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0034213,benchmark_results\runs\GridDemands_gd9_dual_run1
+GridDemands/gd9,GridDemands,dual,2,timeout,,180,,,,,,Timeout after 180.0s,182.0068247,benchmark_results\runs\GridDemands_gd9_dual_run2
+GridDemands/gd9,GridDemands,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0118759,benchmark_results\runs\GridDemands_gd9_dual_run3
+GridDemands/gd9,GridDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.011867,benchmark_results\runs\GridDemands_gd9_interior_point_run1
+GridDemands/gd9,GridDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0093236,benchmark_results\runs\GridDemands_gd9_interior_point_run2
+GridDemands/gd9,GridDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,181.9999871,benchmark_results\runs\GridDemands_gd9_interior_point_run3
+PlanarNetworks/pl30,PlanarNetworks,simplex,1,success,TRUE,0.05,44350624,1403,,,,,0.480409145,benchmark_results\runs\PlanarNetworks_pl30_simplex_run1
+PlanarNetworks/pl30,PlanarNetworks,simplex,2,success,TRUE,0.05,44350624,1399,,,,,0.45550561,benchmark_results\runs\PlanarNetworks_pl30_simplex_run2
+PlanarNetworks/pl30,PlanarNetworks,simplex,3,success,TRUE,0.05,44350624,1410,,,,,0.465997934,benchmark_results\runs\PlanarNetworks_pl30_simplex_run3
+PlanarNetworks/pl30,PlanarNetworks,column_generation,1,success,TRUE,0.74,44350624,98,,,,,0.84368968,benchmark_results\runs\PlanarNetworks_pl30_column_generation_run1
+PlanarNetworks/pl30,PlanarNetworks,column_generation,2,success,TRUE,0.37,44350624,98,,,,,0.449904919,benchmark_results\runs\PlanarNetworks_pl30_column_generation_run2
+PlanarNetworks/pl30,PlanarNetworks,column_generation,3,success,TRUE,0.36,44350624,98,,,,,0.452567577,benchmark_results\runs\PlanarNetworks_pl30_column_generation_run3
+PlanarNetworks/pl30,PlanarNetworks,dual,1,success,FALSE,3.986243,43768523.51,1000,59.375,0,118689.7,,4.053658962,benchmark_results\runs\PlanarNetworks_pl30_dual_run1
+PlanarNetworks/pl30,PlanarNetworks,dual,2,success,FALSE,3.901393,43768523.51,1000,59.375,0,118689.7,,3.96146822,benchmark_results\runs\PlanarNetworks_pl30_dual_run2
+PlanarNetworks/pl30,PlanarNetworks,dual,3,success,FALSE,3.895845,43768523.51,1000,59.375,0,118689.7,,3.971852303,benchmark_results\runs\PlanarNetworks_pl30_dual_run3
+PlanarNetworks/pl30,PlanarNetworks,interior_point,1,success,TRUE,161.27,44350625.05,38,0.0025,3.72E-10,2.75E-08,,161.6916738,benchmark_results\runs\PlanarNetworks_pl30_interior_point_run1
+PlanarNetworks/pl30,PlanarNetworks,interior_point,2,success,TRUE,160.17,44350625.05,38,0.0025,3.72E-10,2.75E-08,,160.5764194,benchmark_results\runs\PlanarNetworks_pl30_interior_point_run2
+PlanarNetworks/pl30,PlanarNetworks,interior_point,3,success,TRUE,157.91,44350625.05,38,0.0025,3.72E-10,2.75E-08,,158.3231261,benchmark_results\runs\PlanarNetworks_pl30_interior_point_run3
+PlanarNetworks/pl50,PlanarNetworks,simplex,1,success,TRUE,0.32,122199689,6394,,,,,0.778193474,benchmark_results\runs\PlanarNetworks_pl50_simplex_run1
+PlanarNetworks/pl50,PlanarNetworks,simplex,2,success,TRUE,0.32,122199689,6312,,,,,0.75757575,benchmark_results\runs\PlanarNetworks_pl50_simplex_run2
+PlanarNetworks/pl50,PlanarNetworks,simplex,3,success,TRUE,0.32,122199689,6345,,,,,0.762992144,benchmark_results\runs\PlanarNetworks_pl50_simplex_run3
+PlanarNetworks/pl50,PlanarNetworks,column_generation,1,success,TRUE,3.02,122199689,277,,,,,3.120797634,benchmark_results\runs\PlanarNetworks_pl50_column_generation_run1
+PlanarNetworks/pl50,PlanarNetworks,column_generation,2,success,TRUE,2.69,122199689,277,,,,,2.782310009,benchmark_results\runs\PlanarNetworks_pl50_column_generation_run2
+PlanarNetworks/pl50,PlanarNetworks,column_generation,3,success,TRUE,2.61,122199689,277,,,,,2.718295097,benchmark_results\runs\PlanarNetworks_pl50_column_generation_run3
+PlanarNetworks/pl50,PlanarNetworks,dual,1,success,FALSE,22.343667,118708628.6,1000,766.125,0,1820145,,22.42499757,benchmark_results\runs\PlanarNetworks_pl50_dual_run1
+PlanarNetworks/pl50,PlanarNetworks,dual,2,success,FALSE,22.185839,118708628.6,1000,766.125,0,1820145,,22.26329064,benchmark_results\runs\PlanarNetworks_pl50_dual_run2
+PlanarNetworks/pl50,PlanarNetworks,dual,3,success,FALSE,19.230053,118708628.6,1000,766.125,0,1820145,,19.29822111,benchmark_results\runs\PlanarNetworks_pl50_dual_run3
+PlanarNetworks/pl50,PlanarNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.018388,benchmark_results\runs\PlanarNetworks_pl50_interior_point_run1
+PlanarNetworks/pl50,PlanarNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0151401,benchmark_results\runs\PlanarNetworks_pl50_interior_point_run2
+PlanarNetworks/pl50,PlanarNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0047324,benchmark_results\runs\PlanarNetworks_pl50_interior_point_run3
+PlanarNetworks/pl80,PlanarNetworks,simplex,1,success,TRUE,3,182438134,22409,,,,,3.612411499,benchmark_results\runs\PlanarNetworks_pl80_simplex_run1
+PlanarNetworks/pl80,PlanarNetworks,simplex,2,success,TRUE,3.07,182438134,22809,,,,,3.653559446,benchmark_results\runs\PlanarNetworks_pl80_simplex_run2
+PlanarNetworks/pl80,PlanarNetworks,simplex,3,success,TRUE,2.71,182438134,22224,,,,,3.290653944,benchmark_results\runs\PlanarNetworks_pl80_simplex_run3
+PlanarNetworks/pl80,PlanarNetworks,column_generation,1,error,FALSE,82.44,0,2000,,,,,82.59051037,benchmark_results\runs\PlanarNetworks_pl80_column_generation_run1
+PlanarNetworks/pl80,PlanarNetworks,column_generation,2,error,FALSE,104.95,0,2000,,,,,105.1392865,benchmark_results\runs\PlanarNetworks_pl80_column_generation_run2
+PlanarNetworks/pl80,PlanarNetworks,column_generation,3,error,FALSE,86.63,0,2000,,,,,86.79515958,benchmark_results\runs\PlanarNetworks_pl80_column_generation_run3
+PlanarNetworks/pl80,PlanarNetworks,dual,1,success,FALSE,77.333907,179721421.8,1000,2860.5,0,2798113,,77.43344188,benchmark_results\runs\PlanarNetworks_pl80_dual_run1
+PlanarNetworks/pl80,PlanarNetworks,dual,2,success,FALSE,82.502345,179721421.8,1000,2860.5,0,2798113,,82.60187793,benchmark_results\runs\PlanarNetworks_pl80_dual_run2
+PlanarNetworks/pl80,PlanarNetworks,dual,3,success,FALSE,77.934725,179721421.8,1000,2860.5,0,2798113,,78.03816485,benchmark_results\runs\PlanarNetworks_pl80_dual_run3
+PlanarNetworks/pl80,PlanarNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0072322,benchmark_results\runs\PlanarNetworks_pl80_interior_point_run1
+PlanarNetworks/pl80,PlanarNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0243104,benchmark_results\runs\PlanarNetworks_pl80_interior_point_run2
+PlanarNetworks/pl80,PlanarNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0071056,benchmark_results\runs\PlanarNetworks_pl80_interior_point_run3
+PlanarNetworks/pl100,PlanarNetworks,simplex,1,success,TRUE,14.24,231339582,48124,,,,,16.88629603,benchmark_results\runs\PlanarNetworks_pl100_simplex_run1
+PlanarNetworks/pl100,PlanarNetworks,simplex,2,success,TRUE,12.74,231339582,48612,,,,,13.62966847,benchmark_results\runs\PlanarNetworks_pl100_simplex_run2
+PlanarNetworks/pl100,PlanarNetworks,simplex,3,success,TRUE,13.04,231339582,48136,,,,,13.93825245,benchmark_results\runs\PlanarNetworks_pl100_simplex_run3
+PlanarNetworks/pl100,PlanarNetworks,column_generation,1,success,TRUE,146.33,231339582,1948,,,,,147.1584554,benchmark_results\runs\PlanarNetworks_pl100_column_generation_run1
+PlanarNetworks/pl100,PlanarNetworks,column_generation,2,success,TRUE,132.39,231339582,1948,,,,,132.7465565,benchmark_results\runs\PlanarNetworks_pl100_column_generation_run2
+PlanarNetworks/pl100,PlanarNetworks,column_generation,3,success,TRUE,133.42,231339582,1948,,,,,133.7830043,benchmark_results\runs\PlanarNetworks_pl100_column_generation_run3
+PlanarNetworks/pl100,PlanarNetworks,dual,1,error,FALSE,146.506049,228957619.7,1000,2713.375,0,2485131,,146.5828776,benchmark_results\runs\PlanarNetworks_pl100_dual_run1
+PlanarNetworks/pl100,PlanarNetworks,dual,2,error,FALSE,141.786292,228957619.7,1000,2713.375,0,2485131,,141.8704758,benchmark_results\runs\PlanarNetworks_pl100_dual_run2
+PlanarNetworks/pl100,PlanarNetworks,dual,3,error,FALSE,143.240783,228957619.7,1000,2713.375,0,2485131,,143.3180854,benchmark_results\runs\PlanarNetworks_pl100_dual_run3
+PlanarNetworks/pl100,PlanarNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0541656,benchmark_results\runs\PlanarNetworks_pl100_interior_point_run1
+PlanarNetworks/pl100,PlanarNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.038723,benchmark_results\runs\PlanarNetworks_pl100_interior_point_run2
+PlanarNetworks/pl100,PlanarNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0790188,benchmark_results\runs\PlanarNetworks_pl100_interior_point_run3
+PlanarNetworks/pl150,PlanarNetworks,simplex,1,timeout,,180,,,,,,Timeout after 180.0s,182.0320997,benchmark_results\runs\PlanarNetworks_pl150_simplex_run1
+PlanarNetworks/pl150,PlanarNetworks,simplex,2,timeout,,180,,,,,,Timeout after 180.0s,182.0058525,benchmark_results\runs\PlanarNetworks_pl150_simplex_run2
+PlanarNetworks/pl150,PlanarNetworks,simplex,3,timeout,,180,,,,,,Timeout after 180.0s,182.0171971,benchmark_results\runs\PlanarNetworks_pl150_simplex_run3
+PlanarNetworks/pl150,PlanarNetworks,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.0087278,benchmark_results\runs\PlanarNetworks_pl150_column_generation_run1
+PlanarNetworks/pl150,PlanarNetworks,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.0045257,benchmark_results\runs\PlanarNetworks_pl150_column_generation_run2
+PlanarNetworks/pl150,PlanarNetworks,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0001192,benchmark_results\runs\PlanarNetworks_pl150_column_generation_run3
+PlanarNetworks/pl150,PlanarNetworks,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.008173,benchmark_results\runs\PlanarNetworks_pl150_dual_run1
+PlanarNetworks/pl150,PlanarNetworks,dual,2,timeout,,180,,,,,,Timeout after 180.0s,181.9868059,benchmark_results\runs\PlanarNetworks_pl150_dual_run2
+PlanarNetworks/pl150,PlanarNetworks,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0050442,benchmark_results\runs\PlanarNetworks_pl150_dual_run3
+PlanarNetworks/pl150,PlanarNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0086021,benchmark_results\runs\PlanarNetworks_pl150_interior_point_run1
+PlanarNetworks/pl150,PlanarNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0115049,benchmark_results\runs\PlanarNetworks_pl150_interior_point_run2
+PlanarNetworks/pl150,PlanarNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0159464,benchmark_results\runs\PlanarNetworks_pl150_interior_point_run3
+TrafficNetworks/chica,TrafficNetworks,simplex,1,timeout,,180,,,,,,Timeout after 180.0s,181.999769,benchmark_results\runs\TrafficNetworks_chica_simplex_run1
+TrafficNetworks/chica,TrafficNetworks,simplex,2,timeout,,180,,,,,,Timeout after 180.0s,182.0023823,benchmark_results\runs\TrafficNetworks_chica_simplex_run2
+TrafficNetworks/chica,TrafficNetworks,simplex,3,timeout,,180,,,,,,Timeout after 180.0s,182.0035398,benchmark_results\runs\TrafficNetworks_chica_simplex_run3
+TrafficNetworks/chica,TrafficNetworks,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.0176868,benchmark_results\runs\TrafficNetworks_chica_column_generation_run1
+TrafficNetworks/chica,TrafficNetworks,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.012465,benchmark_results\runs\TrafficNetworks_chica_column_generation_run2
+TrafficNetworks/chica,TrafficNetworks,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0142257,benchmark_results\runs\TrafficNetworks_chica_column_generation_run3
+TrafficNetworks/chica,TrafficNetworks,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0061479,benchmark_results\runs\TrafficNetworks_chica_dual_run1
+TrafficNetworks/chica,TrafficNetworks,dual,2,timeout,,180,,,,,,Timeout after 180.0s,182.0149474,benchmark_results\runs\TrafficNetworks_chica_dual_run2
+TrafficNetworks/chica,TrafficNetworks,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0127625,benchmark_results\runs\TrafficNetworks_chica_dual_run3
+TrafficNetworks/chica,TrafficNetworks,interior_point,1,unknown,,127.8976998,,,,,,,127.899699,benchmark_results\runs\TrafficNetworks_chica_interior_point_run1
+TrafficNetworks/chica,TrafficNetworks,interior_point,2,unknown,,126.422647,,,,,,,126.422647,benchmark_results\runs\TrafficNetworks_chica_interior_point_run2
+TrafficNetworks/chica,TrafficNetworks,interior_point,3,unknown,,126.1032126,,,,,,,126.1042838,benchmark_results\runs\TrafficNetworks_chica_interior_point_run3
+TrafficNetworks/siou,TrafficNetworks,simplex,1,success,TRUE,0.36,320184,6008,,,,,1.043069363,benchmark_results\runs\TrafficNetworks_siou_simplex_run1
+TrafficNetworks/siou,TrafficNetworks,simplex,2,success,TRUE,0.48,320184,5998,,,,,1.077702522,benchmark_results\runs\TrafficNetworks_siou_simplex_run2
+TrafficNetworks/siou,TrafficNetworks,simplex,3,success,TRUE,0.55,320184,6001,,,,,1.144383907,benchmark_results\runs\TrafficNetworks_siou_simplex_run3
+TrafficNetworks/siou,TrafficNetworks,column_generation,1,success,TRUE,0.45,320184,12,,,,,0.573911667,benchmark_results\runs\TrafficNetworks_siou_column_generation_run1
+TrafficNetworks/siou,TrafficNetworks,column_generation,2,success,TRUE,0.11,320184,12,,,,,0.224175453,benchmark_results\runs\TrafficNetworks_siou_column_generation_run2
+TrafficNetworks/siou,TrafficNetworks,column_generation,3,success,TRUE,0.09,320184,12,,,,,0.209636211,benchmark_results\runs\TrafficNetworks_siou_column_generation_run3
+TrafficNetworks/siou,TrafficNetworks,dual,1,success,TRUE,0.024228,323500,2,0,0,0,,0.10610795,benchmark_results\runs\TrafficNetworks_siou_dual_run1
+TrafficNetworks/siou,TrafficNetworks,dual,2,success,TRUE,0.022627,323500,2,0,0,0,,0.096964121,benchmark_results\runs\TrafficNetworks_siou_dual_run2
+TrafficNetworks/siou,TrafficNetworks,dual,3,success,TRUE,0.020704,323500,2,0,0,0,,0.096334696,benchmark_results\runs\TrafficNetworks_siou_dual_run3
+TrafficNetworks/siou,TrafficNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0112996,benchmark_results\runs\TrafficNetworks_siou_interior_point_run1
+TrafficNetworks/siou,TrafficNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0103376,benchmark_results\runs\TrafficNetworks_siou_interior_point_run2
+TrafficNetworks/siou,TrafficNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.001626,benchmark_results\runs\TrafficNetworks_siou_interior_point_run3
+TrafficNetworks/win,TrafficNetworks,simplex,1,error,,27.94196033,,,,,,Exit code 2,27.94298434,benchmark_results\runs\TrafficNetworks_win_simplex_run1
+TrafficNetworks/win,TrafficNetworks,simplex,2,error,,26.64849782,,,,,,Exit code 2,26.64849782,benchmark_results\runs\TrafficNetworks_win_simplex_run2
+TrafficNetworks/win,TrafficNetworks,simplex,3,error,,28.68835044,,,,,,Exit code 2,28.68835044,benchmark_results\runs\TrafficNetworks_win_simplex_run3
+TrafficNetworks/win,TrafficNetworks,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,181.989984,benchmark_results\runs\TrafficNetworks_win_column_generation_run1
+TrafficNetworks/win,TrafficNetworks,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.0102284,benchmark_results\runs\TrafficNetworks_win_column_generation_run2
+TrafficNetworks/win,TrafficNetworks,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0029964,benchmark_results\runs\TrafficNetworks_win_column_generation_run3
+TrafficNetworks/win,TrafficNetworks,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0056016,benchmark_results\runs\TrafficNetworks_win_dual_run1
+TrafficNetworks/win,TrafficNetworks,dual,2,timeout,,180,,,,,,Timeout after 180.0s,182.0116179,benchmark_results\runs\TrafficNetworks_win_dual_run2
+TrafficNetworks/win,TrafficNetworks,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0083592,benchmark_results\runs\TrafficNetworks_win_dual_run3
+TrafficNetworks/win,TrafficNetworks,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0100348,benchmark_results\runs\TrafficNetworks_win_interior_point_run1
+TrafficNetworks/win,TrafficNetworks,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0017891,benchmark_results\runs\TrafficNetworks_win_interior_point_run2
+TrafficNetworks/win,TrafficNetworks,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0026674,benchmark_results\runs\TrafficNetworks_win_interior_point_run3
+OtherDemands/22,OtherDemands,simplex,1,success,TRUE,0.01,1882.375,2,,,,,0.552544594,benchmark_results\runs\OtherDemands_22_simplex_run1
+OtherDemands/22,OtherDemands,simplex,2,success,TRUE,0,1882.375,2,,,,,0.544950962,benchmark_results\runs\OtherDemands_22_simplex_run2
+OtherDemands/22,OtherDemands,simplex,3,success,TRUE,0,1882.375,2,,,,,0.534034252,benchmark_results\runs\OtherDemands_22_simplex_run3
+OtherDemands/22,OtherDemands,column_generation,1,success,TRUE,0.38,1882.38,6,,,,,0.485228539,benchmark_results\runs\OtherDemands_22_column_generation_run1
+OtherDemands/22,OtherDemands,column_generation,2,success,TRUE,0.03,1882.38,6,,,,,0.134563684,benchmark_results\runs\OtherDemands_22_column_generation_run2
+OtherDemands/22,OtherDemands,column_generation,3,success,TRUE,0.02,1882.38,6,,,,,0.126415253,benchmark_results\runs\OtherDemands_22_column_generation_run3
+OtherDemands/22,OtherDemands,dual,1,success,TRUE,0.005368,2036.125,7,0,0,0,,0.078526497,benchmark_results\runs\OtherDemands_22_dual_run1
+OtherDemands/22,OtherDemands,dual,2,success,TRUE,0.00405,2036.125,7,0,0,0,,0.07966733,benchmark_results\runs\OtherDemands_22_dual_run2
+OtherDemands/22,OtherDemands,dual,3,success,TRUE,0.005253,2036.125,7,0,0,0,,0.081342936,benchmark_results\runs\OtherDemands_22_dual_run3
+OtherDemands/22,OtherDemands,interior_point,1,success,TRUE,4.39,1882.38,499,0.0336,6.44E-13,9.04E-11,,4.532526493,benchmark_results\runs\OtherDemands_22_interior_point_run1
+OtherDemands/22,OtherDemands,interior_point,2,success,TRUE,4.07,1882.38,499,0.0336,6.44E-13,9.04E-11,,4.223306894,benchmark_results\runs\OtherDemands_22_interior_point_run2
+OtherDemands/22,OtherDemands,interior_point,3,success,TRUE,3.92,1882.38,499,0.0336,6.44E-13,9.04E-11,,4.057926655,benchmark_results\runs\OtherDemands_22_interior_point_run3
+OtherDemands/148,OtherDemands,simplex,1,success,TRUE,0.07,139500,2534,,,,,0.62191844,benchmark_results\runs\OtherDemands_148_simplex_run1
+OtherDemands/148,OtherDemands,simplex,2,success,TRUE,0.07,139500,2533,,,,,0.639228344,benchmark_results\runs\OtherDemands_148_simplex_run2
+OtherDemands/148,OtherDemands,simplex,3,success,TRUE,0.1,139500,2533,,,,,0.680272579,benchmark_results\runs\OtherDemands_148_simplex_run3
+OtherDemands/148,OtherDemands,column_generation,1,success,TRUE,0.06,139500,4,,,,,0.170044661,benchmark_results\runs\OtherDemands_148_column_generation_run1
+OtherDemands/148,OtherDemands,column_generation,2,success,TRUE,0.06,139500,4,,,,,0.1740098,benchmark_results\runs\OtherDemands_148_column_generation_run2
+OtherDemands/148,OtherDemands,column_generation,3,success,TRUE,0.06,139500,4,,,,,0.174980164,benchmark_results\runs\OtherDemands_148_column_generation_run3
+OtherDemands/148,OtherDemands,dual,1,success,TRUE,0.010084,139500,2,0,0,0,,0.08981657,benchmark_results\runs\OtherDemands_148_dual_run1
+OtherDemands/148,OtherDemands,dual,2,success,TRUE,0.01561,139500,2,0,0,0,,0.093682528,benchmark_results\runs\OtherDemands_148_dual_run2
+OtherDemands/148,OtherDemands,dual,3,success,TRUE,0.014251,139500,2,0,0,0,,0.094759464,benchmark_results\runs\OtherDemands_148_dual_run3
+OtherDemands/148,OtherDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0035188,benchmark_results\runs\OtherDemands_148_interior_point_run1
+OtherDemands/148,OtherDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0141103,benchmark_results\runs\OtherDemands_148_interior_point_run2
+OtherDemands/148,OtherDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0069587,benchmark_results\runs\OtherDemands_148_interior_point_run3
+OtherDemands/904,OtherDemands,simplex,1,timeout,,180,,,,,,Timeout after 180.0s,182.0032587,benchmark_results\runs\OtherDemands_904_simplex_run1
+OtherDemands/904,OtherDemands,simplex,2,timeout,,180,,,,,,Timeout after 180.0s,182.0128295,benchmark_results\runs\OtherDemands_904_simplex_run2
+OtherDemands/904,OtherDemands,simplex,3,timeout,,180,,,,,,Timeout after 180.0s,182.0015039,benchmark_results\runs\OtherDemands_904_simplex_run3
+OtherDemands/904,OtherDemands,column_generation,1,timeout,,180,,,,,,Timeout after 180.0s,182.0021577,benchmark_results\runs\OtherDemands_904_column_generation_run1
+OtherDemands/904,OtherDemands,column_generation,2,timeout,,180,,,,,,Timeout after 180.0s,182.0059068,benchmark_results\runs\OtherDemands_904_column_generation_run2
+OtherDemands/904,OtherDemands,column_generation,3,timeout,,180,,,,,,Timeout after 180.0s,182.0097275,benchmark_results\runs\OtherDemands_904_column_generation_run3
+OtherDemands/904,OtherDemands,dual,1,timeout,,180,,,,,,Timeout after 180.0s,182.0035441,benchmark_results\runs\OtherDemands_904_dual_run1
+OtherDemands/904,OtherDemands,dual,2,timeout,,180,,,,,,Timeout after 180.0s,182.009377,benchmark_results\runs\OtherDemands_904_dual_run2
+OtherDemands/904,OtherDemands,dual,3,timeout,,180,,,,,,Timeout after 180.0s,182.0014911,benchmark_results\runs\OtherDemands_904_dual_run3
+OtherDemands/904,OtherDemands,interior_point,1,timeout,,180,,,,,,Timeout after 180.0s,182.0045607,benchmark_results\runs\OtherDemands_904_interior_point_run1
+OtherDemands/904,OtherDemands,interior_point,2,timeout,,180,,,,,,Timeout after 180.0s,182.0078671,benchmark_results\runs\OtherDemands_904_interior_point_run2
+OtherDemands/904,OtherDemands,interior_point,3,timeout,,180,,,,,,Timeout after 180.0s,182.0021906,benchmark_results\runs\OtherDemands_904_interior_point_run3

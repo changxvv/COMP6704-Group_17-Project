@@ -1,0 +1,10 @@
+Format of the Cproblem.txt file:
+
+For each arc:
+ startnode endnode cost capacity
+
+Format of the Dproblem.txt file:
+
+For each OD-pair
+ origin destination demand
+

@@ -1,0 +1,169 @@
+
+\section{Interior Point Methods for Linear Programming}
+
+\subsection{Overview of Interior Point Methods}
+
+Interior point methods represent a fundamental paradigm shift from the classical simplex method in linear programming. While the simplex method navigates along the boundary of the feasible region by moving from vertex to vertex, interior point methods traverse through the interior of the feasible region, maintaining strict feasibility throughout the optimization process.
+
+The primal-dual interior point method, which forms the foundation of our implementation, offers several key advantages over traditional approaches. First, it exhibits polynomial-time complexity in the worst case, providing theoretical guarantees for convergence. Second, it demonstrates superior performance on large-scale sparse problems commonly encountered in network flow optimization. Third, the method's numerical stability makes it particularly suitable for engineering applications where robust convergence is essential.
+
+In the context of linear multicommodity flow (LMCF) problems, interior point methods excel at handling the large constraint matrices and sparse network structures that characterize real-world transportation and communication networks. The method's ability to maintain interior feasibility while approaching the optimal solution makes it particularly well-suited for problems where the optimal solution lies on the boundary of the feasible region.
+
+\subsection{Theoretical Foundation of Primal-Dual Interior Point Methods}
+
+The fundamental insight of interior point methods lies in a paradigm shift from searching for feasible solutions to directly targeting optimality conditions. Rather than navigating the boundary of the feasible region, interior point methods approach optimality by iteratively satisfying the Karush-Kuhn-Tucker (KKT) conditions from within the feasible region.
+
+\subsubsection{Lagrangian Duality and Optimality Conditions}
+
+Consider the standard form linear programming problem:
+\begin{align}
+\min_{x} \quad & c^T x \\
+\text{s.t.} \quad & Ax = b \\
+& x \geq 0
+\end{align}
+where $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, $c \in \mathbb{R}^n$, and $x \in \mathbb{R}^n$.
+
+To characterize optimality, we construct the Lagrangian function by introducing Lagrange multipliers $y \in \mathbb{R}^m$ for the equality constraints and $s \in \mathbb{R}^n$ for the non-negativity constraints:
+\begin{equation}
+L(x, y, s) = c^T x - y^T(Ax - b) - s^T x
+\end{equation}
+
+The relationship between the primal problem and its Lagrangian is established through the dual function:
+\begin{equation}
+g(y, s) = \inf_{x \geq 0} L(x, y, s) = \begin{cases}
+b^T y & \text{if } A^T y + s = c \\
+-\infty & \text{otherwise}
+\end{cases}
+\end{equation}
+
+This leads to the dual problem:
+\begin{align}
+\max_{y,s} \quad & b^T y \\
+\text{s.t.} \quad & A^T y + s = c \\
+& s \geq 0
+\end{align}
+
+\subsubsection{KKT Conditions as Optimality Characterization}
+
+The optimality of a solution is completely characterized by the KKT conditions, which arise from the first-order optimality conditions of the Lagrangian:
+\begin{align}
+\nabla_x L(x, y, s) &= c - A^T y - s = 0 \quad \Rightarrow \quad A^T y + s = c \\
+\nabla_y L(x, y, s) &= -(Ax - b) = 0 \quad \Rightarrow \quad Ax = b \\
+\nabla_s L(x, y, s) &= -x = 0 \quad \Rightarrow \quad x \geq 0 \\
+s &\geq 0 \\
+x_i s_i &= 0, \quad i = 1, \ldots, n \quad \text{(complementary slackness)}
+\end{align}
+
+These conditions can be compactly written as:
+\begin{align}
+Ax &= b \quad \text{(primal feasibility)} \\
+A^T y + s &= c \quad \text{(dual feasibility)} \\
+x_i s_i &= 0, \quad i = 1, \ldots, n \quad \text{(complementary slackness)} \\
+x, s &\geq 0 \quad \text{(non-negativity)}
+\end{align}
+
+
+\subsubsection{Iterative Strategy: Tracking Optimality Conditions}
+
+The interior point algorithm follows a systematic approach:
+
+\textbf{Initialization:} Start from an interior point $(x^0, y^0, s^0)$ where $x^0 > 0$ and $s^0 > 0$, but not necessarily feasible (i.e., $Ax^0 \neq b$).
+
+\textbf{Iteration:} At each iteration $k$:
+\begin{enumerate}
+\item Compute the violation of KKT conditions through residuals:
+\begin{align}
+r_p^k &= Ax^k - b \quad \text{(primal residual)} \\
+r_d^k &= A^T y^k + s^k - c \quad \text{(dual residual)} \\
+\mu^k &= \frac{(x^k)^T s^k}{n} \quad \text{(complementarity gap)}
+\end{align}
+
+\item Use Newton's method to find correction directions $(\Delta x, \Delta y, \Delta s)$ that reduce these residuals.
+
+\item Apply step size control to maintain interiority: $x^{k+1} > 0$, $s^{k+1} > 0$.
+
+\item Gradually reduce the barrier parameter $\mu$ to approach the optimal solution.
+\end{enumerate}
+
+\textbf{Convergence:} As $\mu \to 0$, the algorithm converges to a point that satisfies all KKT conditions, thereby achieving optimality.
+
+This approach fundamentally differs from the simplex method, which searches for feasible solutions on the boundary until optimality is reached. Instead, interior point methods track optimality conditions from within the feasible region, converging to both feasibility and optimality simultaneously.
+
+\subsubsection{Feasibility Strategy: Interior of Relaxed Feasible Region}
+
+A crucial insight is that interior point methods operate within a \emph{relaxed feasible region} rather than the original feasible region. Unlike the simplex method that maintains feasibility of all constraints throughout the optimization process, interior point methods take a different approach: they maintain strict interiority with respect to the non-negativity constraints while gradually satisfying the equality constraints and complementary slackness conditions.
+
+This strategy can be understood by examining how each optimality condition is handled throughout the iterative process. The algorithm starts from an interior point that satisfies only the non-negativity constraints strictly, while the equality constraints and complementary slackness are initially violated. The method then systematically reduces these violations through Newton iterations, as summarized in the following table:
+
+\begin{table}[h]
+\centering
+\caption{Feasibility conditions and satisfaction strategies in primal-dual interior-point methods}
+\label{tab:feasibility}
+\begin{tabular}{|l|c|p{8cm}|}
+\hline
+Condition & Initially Satisfied? & How to Achieve Satisfaction \\
+\hline
+$x > 0, s > 0$& \checkmark & Maintained through step size control \\
+\hline
+$Ax = b$ & $\times$ & Gradually reduce primal infeasibility $\|Ax - b\|$ \\
+\hline
+$A^T y + s = c$ & $\times$ & Gradually reduce dual infeasibility $\|A^T y + s - c\|$ \\
+\hline
+$x \circ s = 0$ & $\times$ & Progressively reduce complementarity gap along central path by decreasing $\mu$ \\
+\hline
+\end{tabular}
+\end{table}
+
+This systematic approach allows interior point methods to maintain numerical stability while approaching the optimal solution. By operating within the relaxed feasible region defined by $x > 0$ and $s > 0$, the algorithm avoids the numerical difficulties associated with boundary operations while ensuring convergence to the true optimal solution.
+
+\subsubsection{The Central Path: Relaxing Complementary Slackness}
+
+The key innovation of interior point methods lies in recognizing that directly solving the KKT system is challenging due to the nonlinear complementary slackness condition $x_i s_i = 0$. Instead, we introduce a perturbation parameter $\mu > 0$ and consider the relaxed system:
+\begin{align}
+Ax &= b \\
+A^T y + s &= c \\
+x_i s_i &= \mu, \quad i = 1, \ldots, n \\
+x, s &> 0
+\end{align}
+
+This defines the \emph{central path} as the set of points $(x(\mu), y(\mu), s(\mu))$ that satisfy the perturbed KKT conditions. As $\mu \to 0$, the central path converges to the optimal solution that satisfies all original KKT conditions.
+
+
+\subsection{Algorithm Implementation Details}
+
+The primal-dual interior point algorithm employs Newton's method to iteratively solve the perturbed KKT system. At each iteration, the algorithm computes search directions by solving a linear system derived from the first-order optimality conditions of the perturbed problem.
+
+\subsubsection{Search Direction Computation}
+
+The Newton system is formulated by linearizing the perturbed KKT conditions around the current iterate. This yields a system of linear equations that can be solved efficiently using either direct methods (for small to medium problems) or iterative methods such as conjugate gradients (for large-scale sparse problems).
+
+The key computational challenge lies in solving the normal equations system $AWA^T \Delta y = \text{rhs}$, where $W = XS^{-1}$ is the weight matrix. For large-scale problems, the conjugate gradient method is preferred due to its efficiency with sparse matrices.
+
+\subsubsection{Step Size Control and Parameter Selection}
+
+The algorithm employs a fraction-to-boundary rule to maintain strict interiority. This ensures that the updated variables remain strictly positive, preventing the algorithm from reaching the boundary prematurely. The step size is chosen conservatively, typically using a parameter $\tau \in (0.95, 0.99)$ to stay sufficiently far from the boundary.
+
+The centering parameter $\sigma$ plays a crucial role in balancing the reduction of the complementarity gap with the maintenance of interiority. In practice, $\sigma$ is chosen adaptively based on the current iteration and the complementarity gap, with larger values used in early iterations to promote centering and smaller values used as the algorithm approaches optimality.
+
+\subsubsection{Convergence Criteria}
+
+The algorithm terminates when all three optimality conditions are satisfied within specified tolerances: primal feasibility ($\|Ax - b\| \leq \epsilon_{\text{pri}}$), dual feasibility ($\|A^T y + s - c\| \leq \epsilon_{\text{dual}}$), and complementary slackness ($\mu \leq \epsilon_{\text{comp}}$). Typical tolerance values are on the order of $10^{-6}$ for tight convergence.
+
+\begin{algorithm}[H]
+\caption{Primal-Dual Interior Point Method}
+\begin{algorithmic}[1]
+\REQUIRE Standard form LP: $\min c^T x$ s.t. $Ax = b$, $x \geq 0$
+\ENSURE Optimal solution $x^*$ and objective value $c^T x^*$
+\STATE Initialize $x^0 > 0$, $y^0$, $s^0 > 0$, $k = 0$
+\WHILE{not converged and $k < k_{\max}$}
+    \STATE Compute residuals: $r_p = Ax^k - b$, $r_d = A^T y^k + s^k - c$
+    \STATE Compute complementarity gap: $\mu = (x^k)^T s^k / n$
+    \STATE Choose centering parameter $\sigma$ based on iteration and $\mu$
+    \STATE Solve Newton system for $(\Delta x, \Delta y, \Delta s)$
+    \STATE Compute step sizes: $\alpha_{\text{pri}}$, $\alpha_{\text{dual}}$
+    \STATE Update variables: $x^{k+1}$, $y^{k+1}$, $s^{k+1}$
+    \STATE $k \leftarrow k + 1$
+\ENDWHILE
+\RETURN $x^k$, $c^T x^k$
+\end{algorithmic}
+\end{algorithm}
